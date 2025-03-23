@@ -1,0 +1,250 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOR-ARTS | Luxury & Sports Car Collection</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.google.com/specimen/Tektur">
+    <link rel="preconnect" href="https://fonts.google.com/specimen/Kanit" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="logo-animation">MOTOR-ARTS</div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">MOTOR<span>-</span>ARTS</a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">HOME</a></li>
+                        <li><a href="brands.html">BRANDS</a></li>
+                        <li><a href="models.html">MODELS</a></li>
+                        <li><a href="variants.html">VARIANTS</a></li>
+                        <li><a href="customization.html">CUSTOMIZATION</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="#" class="search-toggle"><i class="fas fa-search"></i></a>
+                    <a href="#" class="btn btn-outline">INQUIRE</a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-overlay">
+        <div class="container">
+            <form class="search-form">
+                <input type="text" placeholder="Search by make, model, or year...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <button class="search-close"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+    <section class="hero-slider">
+        <div class="slide">
+            <div class="slide-image" style="background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="container">
+                <div class="slide-content">
+                    <h1>Exceptional Automobiles<br>for Discerning Collectors</h1>
+                    <p>Curated selection of the world's finest sports and luxury vehicles</p>
+                    <a href="models.html" class="btn btn-primary">Explore Collection</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-brands">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Brands</h2>
+                <p>Discover automotive excellence across prestigious marques</p>
+                <a href="brands.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="brands-grid">
+                <a href="brands.html?brand=lamborghini" class="brand-card">
+                    <div class="brand-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/d1/Lamborghini-Logo.svg" alt="Lamborghini">
+                    </div>
+                    <h3>Lamborghini</h3>
+                </a>
+                <a href="brands.html?brand=lamborghini" class="brand-card">
+                    <div class="brand-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/df/Lamborghini_Logo.svg" alt="Lamborghini">
+                    </div>
+                    <h3>Lamborghini</h3>
+                </a>
+                <a href="brands.html?brand=porsche" class="brand-card">
+                    <div class="brand-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/c/c0/Porsche_Logo.svg" alt="Porsche">
+                    </div>
+                    <h3>Porsche</h3>
+                </a>
+                <a href="brands.html?brand=bentley" class="brand-card">
+                    <div class="brand-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Bentley_logo.svg" alt="Bentley">
+                    </div>
+                    <h3>Bentley</h3>
+                </a>
+                <a href="brands.html?brand=aston-martin" class="brand-card">
+                    <div class="brand-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/d8/Aston_Martin_Logo.svg" alt="Aston Martin">
+                    </div>
+                    <h3>Aston Martin</h3>
+                </a>
+                <a href="brands.html?brand=bugatti" class="brand-card">
+                    <div class="brand-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Bugatti_logo.svg" alt="Bugatti">
+                    </div>
+                    <h3>Bugatti</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-vehicles">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Vehicles</h2>
+                <p>Exceptional automobiles from our curated collection</p>
+                <a href="models.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="vehicle-grid">
+                <div class="vehicle-card">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Porsche 911 GT3">
+                        <div class="vehicle-badges">
+                            <span class="badge badge-new">New Arrival</span>
+                        </div>
+                    </div>
+                    <div class="vehicle-details">
+                        <h3>Porsche 911 GT3</h3>
+                        <div class="vehicle-meta">
+                            <span>2022</span>
+                            <span>4,200 miles</span>
+                            <span>Eclipse black</span>
+                        </div>
+                        <div class="vehicle-price">
+                            <span class="price">$189,900</span>
+                        </div>
+                        <div class="vehicle-actions">
+                            <a href="variants.html?model=911-gt3" class="btn btn-secondary">View Details</a>
+                            <button class="btn-favorite"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vehicle-card">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Ferrari F8 Tributo">
+                        <div class="vehicle-badges">
+                            <span class="badge badge-featured">Featured</span>
+                        </div>
+                    </div>
+                    <div class="vehicle-details">
+                        <h3>Mercedes Benz AMG GTR</h3>
+                        <div class="vehicle-meta">
+                            <span>2021</span>
+                            <span>3,100 miles</span>
+                            <span>Matte Grey with AMG Racing lines</span>
+                        </div>
+                        <div class="vehicle-price">
+                            <span class="price">$329,500</span>
+                        </div>
+                        <div class="vehicle-actions">
+                            <a href="variants.html?model=AMG-GTR" class="btn btn-secondary">View Details</a>
+                            <button class="btn-favorite"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vehicle-card">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Bentley Continental GT">
+                    </div>
+                    <div class="vehicle-details">
+                        <h3>AUDI R8 V10+ Coupe</h3>
+                        <div class="vehicle-meta">
+                            <span>2020</span>
+                            <span>8,500 miles</span>
+                            <span>Onyx Black</span>
+                        </div>
+                        <div class="vehicle-price">
+                            <span class="price">$198,750</span>
+                        </div>
+                        <div class="vehicle-actions">
+                            <a href="variants.html?model=continental-gt" class="btn btn-secondary">View Details</a>
+                            <button class="btn-favorite"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customization-showcase">
+        <div class="container">
+            <div class="customization-content">
+                <div class="customization-text">
+                    <h2>Bespoke Customization</h2>
+                    <p>Transform your luxury vehicle into a personalized masterpiece with our premium customization services.</p>
+                    <p>From exclusive paint finishes to handcrafted interior appointments, our artisans can realize your unique vision.</p>
+                    <a href="customization.html" class="btn btn-primary">Explore Options</a>
+                </div>
+                <div class="customization-image">
+                    <img src="https://images.unsplash.com/photo-1611821064430-0d40291d0f0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Custom Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="models-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Our Models</h2>
+                <p>Discover the perfect vehicle to match your lifestyle</p>
+                <a href="models.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="models-grid">
+                <a href="models.html?category=sports" class="model-card">
+                    <div class="model-image">
+                        <img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Sports Cars">
+                    </div>
+                    <div class="model-content">
+                        <h3>Performance SUV</h3>
+                        <p>Performance with Practicality masterpieces</p>
+                    </div>
+                </a>
+                <a href="models.html?category=luxury" class="model-card">
+                    <div class="model-image">
+                        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Luxury Sedans">
+                    </div>
+                    <div class="model-content">
+                        <h3>Luxury Sedans</h3>
+                        <p>Pure Elegence and Designed Pure Excellence</p>
+                    </div>
+                </a>
+                <a href="models.html?category=exotic" class="model-card">
+                    <div class="model-image">
+                        <img src="https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Exotic Supercars">
+                    </div>
+                    <div class="model-content">
+                        <h3>Supercars</h3>
+                        <p>Luxuryness with Best-in Class Performance</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="variants-preview">
+        <div class="container
